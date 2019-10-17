@@ -20,11 +20,23 @@ The main point of doing this is to show the power of linux command.
 You can use it as I ansible dynamic inventory if you know what you are doing, but 
 it's not recommended to use this in production.
 
+# Install
+```bash
+git clone https://github.com/FingerLiu/auth-enabled-bash-server
+
+# centos
+yum install -y dos2unix
+
+# ubuntu
+apt install -y dos2unix
+```
+
 # Usage
 
 ## start the server
 
 ```bash
+cd auth-enabled-bash-server
 ./server.sh
 ```
 
